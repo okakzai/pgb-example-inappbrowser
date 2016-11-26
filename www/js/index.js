@@ -36,6 +36,7 @@ var app = {
         app.receivedEvent('deviceready');
 
         var ref = window.open('http://apk.zainalabidin.xyz/petacuaca/', '_blank', 'location=yes');
+        ref.hide();
 
         //ref.addEventListener('loadstart', function(event) { alert('start: ' + event.url); });
         //ref.addEventListener('loadstop', function(event) { alert('stop: ' + event.url); });
